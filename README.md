@@ -15,9 +15,7 @@
 
 -   Skills Gained in this project.
     - Learned creating different footer section like a complex one.
-    - 
-
-    
+      
 ---
 
 ## Time taken to finish this project⏲

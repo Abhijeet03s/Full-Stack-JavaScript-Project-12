@@ -4,22 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project-12</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <title>Project-13</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="container">
-      <header>
-        <!-- Navbar -->
-        <div class="navbar">
-          <img src="images/Logo.png" alt="logo" />
+      <nav>
+        <div class="logo">
+          <img src="./images/Logo.png" alt="logo" />
+        </div>
+        <div>
           <ul class="list">
             <li class="list-item">Home</li>
             <li class="list-item">About Us</li>
@@ -27,176 +21,188 @@
             <li class="list-item">Agent</li>
             <li class="list-item">Blog</li>
             <li class="list-item">Subscribe</li>
-            <button class="btn">Let's Talk</button>
+            <li class="list-item">
+              <button class="nav-btn">Let's Talk</button>
+            </li>
           </ul>
         </div>
-        <!-- Main Header -->
-        <div class="main-header">
-          <div class="workspace">
-            <img src="images/ws1.jpg" alt="" />
-          </div>
-          <div class="heading">
-            <h1>
-              Empowering your <br />
-              business with the <br />
-              best solution
-            </h1>
-            <p>
-              We connect your brand & businesses with your target <br />
-              market in the most desirable, refined, and elvated way <br />
-              possible through the digital medium.
-            </p>
-            <div class="mail-address">
-              <input type="email" placeholder="Enter your email address" />
-              <button type="submit">Let's Talk</button>
-            </div>
-          </div>
+        <img src="./images/menu-icon.svg" alt="icon" class="menu-icon" />
+      </nav>
+      <main class="hero">
+        <div class="hero-left">
+          <img src="./images/ws1.jpg" alt="photo" />
         </div>
-      </header>
-      <!-- Stats -->
-      <section>
-        <div class="stat-heading">
-          <h1>
-            We Connect your business <br />
-            with your target
-          </h1>
-        </div>
-        <div class="stats">
-          <div>
-            <h1>1,093</h1>
-            <h3>Finished Project</h3>
-          </div>
-          <div>
-            <h1>3,355</h1>
-            <h3>Enrolled Project</h3>
-          </div>
-          <div>
-            <h1>40</h1>
-            <h3>Team Worker</h3>
-          </div>
-          <div>
-            <h1>90%</h1>
-            <h3>Satisfaction Rate</h3>
-          </div>
-        </div>
-        <div class="image-ws">
-          <img src="images/ws2.jpg" alt="" />
-        </div>
-        <div class="stat-heading-1">
-          <h1>
-            We have made your <br />
-            care easy for you
-          </h1>
-        </div>
-        <!-- Features -->
-        <div class="features-1">
-          <div class="feature-1">
-            <h1>
-              Effective website design <br />
-              and development
-            </h1>
-            <p>
-              By connecting patients all over the world to the best <br />
-              instructors, Healthycare helping individuals reach their <br />
-              goals and purse their dreams.
-            </p>
-            <button type="submit">Let's Talk</button>
-          </div>
-          <img src="images/people.jpg" alt="" />
-        </div>
-        <div class="features-2">
-          <img src="images/man2.jpg" alt="" />
-          <div class="feature-2">
-            <h1>
-              We give proven digital <br />
-              marketing strategies for <br />
-              our client
-            </h1>
-            <p>
-              Consulting works hard and we can collaborate with <br />
-              organizations that are keen tranform the legal industry<br />
-              reach their goals and purse their dreams.
-            </p>
-            <button type="submit">Let's Talk</button>
-          </div>
-        </div>
-        <div class="features-3">
-          <div class="feature-3">
-            <h1>
-              People will always judge <br />
-              the book by it's cover.
-            </h1>
-            <p>
-              By connecting patients all over the world to the best <br />
-              instructors, Healthycare helping individuals reach their <br />
-              goals and purse their dreams.
-            </p>
-            <button type="submit">Let's Talk</button>
-          </div>
-          <img src="images/man+pc.jpg" alt="" />
-        </div>
-        <!-- Team-description -->
-        <div class="team-description">
-          <h1>Meets our great <br />Creative Teams</h1>
+        <div class="hero-right">
+          <h1>Enpowering your business with the best solution</h1>
           <p>
-            Our journey began with a simple idea make a simpla <br />
-            journey make this world more function. We collaborate <br />
-            with orgranizations that are keen transform.
+            We connect your brand & businesses with your target market in the
+            most desirable, refined, and elvated way possible through the
+            digital medium
+          </p>
+          <form>
+            <img src="./images/email.png" alt="" />
+            <input type="text" placeholder="Enter your email address" />
+            <button>Let's talk</button>
+          </form>
+        </div>
+      </main>
+    </div>
+
+    <!-- Business Section -->
+    <section class="business-section">
+      <h1>
+        We Connect your businesses <br />
+        with your target
+      </h1>
+      <div class="business-content">
+        <div>
+          <h2>1,093</h2>
+          <p>Finished Project</p>
+        </div>
+        <div>
+          <h2>3,355</h2>
+          <p>Enrolled Project</p>
+        </div>
+        <div>
+          <h2>40</h2>
+          <p>Team Worker</p>
+        </div>
+        <div>
+          <h2>90%</h2>
+          <p>Satisfaction Rate</p>
+        </div>
+      </div>
+      <div class="business-footer">
+        <img src="./images/ws2.jpg" alt="image" />
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="service-section">
+      <h1>
+        We have made your <br />
+        care easy for you
+      </h1>
+      <div class="service-cards">
+        <div class="service-card">
+          <div class="card-text">
+            <h2>Effective Website Design and Development</h2>
+            <p>
+              By connecting patients all over the world to the best instructors,
+              Healthycare helping individuals reach their goals and pursue their
+              dreams.
+            </p>
+            <button>Let's Talk</button>
+          </div>
+          <div class="card-image">
+            <img src="./images/people.jpg" alt="image" />
+          </div>
+        </div>
+
+        <div class="service-card reverse-card">
+          <div class="card-image">
+            <img src="./images/man2.jpg" alt="image" />
+          </div>
+          <div class="card-text">
+            <h2>We Give Proven Digital Marketing Strategies for Our Clients</h2>
+            <p>
+              Consultant working hard and we collaborate with organizations that
+              are keen transform the legal industry. reach their goals and
+              pursue their dreams.
+            </p>
+            <button>Let's Talk</button>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="card-text">
+            <h2>People Wil Always Judge the book by it's cover.</h2>
+            <p>
+              By connecting patients all over the world to the best instructors,
+              Healthycare helping individuals reach their goals and pursue their
+              dreams.
+            </p>
+            <button>Let's Talk</button>
+          </div>
+          <div class="card-image">
+            <img
+              src="./images/man+pc.jpg"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teams -->
+    <section class="teams-section">
+      <div class="teams-section-heading">
+        <h2>
+          Meets our great <br />
+          Creative Teams
+        </h2>
+        <p>
+          Our journey began with a simple idea make a simpla journey make this
+          world more function. We collaborate with organizations that are keen
+          transform
+        </p>
+      </div>
+      <div class="team-cards">
+        <div class="team-card">
+          <img src="./images/lady2.jpg" alt="profile" />
+          <h3>Amera Amanda</h3>
+          <p>
+            Introduction start procrasninate 2 hours get to do work get to do
+            work while eating
           </p>
         </div>
-        <div class="team-members">
-          <div class="team-member">
-            <img src="images/lady2.jpg" alt="" />
-            <h3>Amera Amanda</h3>
-            <p>
-              Introdution start procrasninate 2 hours get <br />
-              to do work get to do work while eating
-            </p>
-          </div>
-          <div class="team-member">
-            <img src="images/man.jpg" alt="" />
-            <h3>Lucas Podolski</h3>
-            <p>
-              Introdution start procrasninate 2 hours get <br />
-              to do work get to do work while eating
-            </p>
-          </div>
-          <div class="team-member">
-            <img src="images/lady.jpg" alt="" />
-            <h3>Leny Marissa Nasution</h3>
-            <p>
-              Introdution start procrasninate 2 hours get <br />
-              to do work get to do work while eating
-            </p>
-          </div>
+
+        <div class="team-card">
+          <img src="./images/man.jpg" alt="profile" />
+          <h3>Lucas Podolski</h3>
+          <p>
+            Introduction start procrasninate 2 hours get to do work get to do
+            work while eating
+          </p>
         </div>
-        <div class="team-btn">
-          <button>See More</button>
+        <div class="team-card">
+          <img
+            src="./images/lady.jpg"
+            alt="profile"
+          />
+          <h3>Leny Marissa Nasution</h3>
+          <p>
+            Introduction start procrasninate 2 hours get to do work get to do
+            work while eating
+          </p>
         </div>
-        <!-- Footer Section -->
-      </section>
-      <section class="footer-section">
-        <footer class="footer">
-          <div class="footer-logo">
-            <div class="logo">
-              <img src="./images/Logo.png" alt="logo" />
-            </div>
-            <ul>
-              <li>
-                <span><i class="fa-brands fa-instagram"></i></span>
-              </li>
-              <li>
-                <span><i class="fa-brands fa-facebook-f"></i></span>
-              </li>
-              <li>
-                <span><i class="fa-brands fa-twitter"></i></span>
-              </li>
-              <li>
-                <span><i class="fa-brands fa-github"></i></span>
-              </li>
-            </ul>
-          </div>
-          <span class="hr"></span>
+      </div>
+
+      <div class="teams-section-footer">
+        <button>See More</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-logos">
+        <img src="./images/Logo.png" alt="logo" class="footer-logo" />
+        <div class="social-icons">
+          <span
+            ><img src="./images/instagram-logo.svg" alt="instagram-logo"
+          /></span>
+          <span>
+            <img src="./images/facebook-app-logo.svg" alt="facebook-logo" />
+          </span>
+          <span>
+            <img src="./images/twitter-logo-shape.svg" alt="twitter-logo" />
+          </span>
+          <span>
+            <img src="./images/github-logo.svg" alt="github-logo" />
+          </span>         
+        </div>
+      </div>
+      <span class="hr"></span>
           <div class="footer-nav">
             <div class="nav-list">
               <h4>Our Products</h4>
@@ -244,8 +250,6 @@
               </ul>
             </div>
           </div>
-        </footer>
-      </section>
-    </div>
+    </footer>
   </body>
 </html>

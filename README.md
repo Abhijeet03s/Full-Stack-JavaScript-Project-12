@@ -11,7 +11,7 @@
 # Live Project 12 : Business Landing Page
 
 
-## Project 12: [Live Link]()
+## Project 12: [Live Link](https://live-project-12-fs-js.netlify.app/)
 
 -   Skills Gained in this project.
     - Learned creating different footer section like a complex one.
